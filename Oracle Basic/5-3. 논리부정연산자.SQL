@@ -1,0 +1,3 @@
+SELECT *
+ FROM EMP
+WHERE NOT SAL = 3000; /*논리부정연산자*/

@@ -1,0 +1,4 @@
+SELECT *
+ FROM EMP
+WHERE EMPNO = 7499
+ AND DEPTNO = 30; /*AND¿¬»êÀÚ*/

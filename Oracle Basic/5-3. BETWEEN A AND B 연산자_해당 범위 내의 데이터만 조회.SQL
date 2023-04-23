@@ -1,0 +1,4 @@
+SELECT *
+ FROM EMP
+WHERE SAL BETWEEN 2000 AND 3000;
+/*BETWEEN A AND B 연산자:해당 범위 내의 데이터만 조회*/

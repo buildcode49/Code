@@ -1,0 +1,3 @@
+SELECT *
+ FROM EMP
+WHERE DEPTNO * 20 = 400; /*산술연산자*/

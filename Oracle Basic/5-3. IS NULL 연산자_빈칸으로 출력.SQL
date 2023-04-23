@@ -1,0 +1,3 @@
+SELECT *
+ FROM EMP
+WHERE COMM IS NULL; /*IS NULL 연산자: 빈칸으로 출력*/

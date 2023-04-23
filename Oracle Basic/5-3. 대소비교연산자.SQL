@@ -1,0 +1,4 @@
+SELECT *
+ FROM EMP
+WHERE SAL >= 2500
+ AND JOB = 'ANALYST'; /*대소비교연산자*/
