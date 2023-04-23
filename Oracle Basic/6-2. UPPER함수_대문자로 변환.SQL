@@ -1,0 +1,2 @@
+SELECT ENAME, UPPEER(ENAME)
+ FROM EMP; /*UPPER함수:대문자로 변환*/

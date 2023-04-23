@@ -1,0 +1,4 @@
+SELECT INSTR('HELLO, ORACLE!', 'L') AS INSTR_1,
+       INSTR('HELLO, ORACLE!', 'L', 5) AS INSTR_2,
+       INSTR('HELLO, ORACLE!', 'L', 2, 2) AS INSTR_3
+ FROM DUAL; /*INSTR함수: 특정 문자의 위치 찾기*/

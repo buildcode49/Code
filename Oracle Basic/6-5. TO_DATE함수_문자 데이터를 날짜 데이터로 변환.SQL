@@ -1,0 +1,4 @@
+/*TO_DATE함수:문자 데이터를 날짜 데이터로 변환*/
+SELECT TO_DATE('2018-07-14', 'YYYY-MM-DD') AS TODATE1,
+       TO_DATE('20180714', 'YYYY-MM-DD') AS TODATE2
+ FROM DUAL;

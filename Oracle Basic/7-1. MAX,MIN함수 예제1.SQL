@@ -1,0 +1,4 @@
+/* MAX, MIN함수: 날짜 및 문자 데이터의 크기 비교 */
+SELECT MAX(HIREDATE), MIN(HIREDATE)
+ FROM EMP
+WHERE DEPTNO = 20;

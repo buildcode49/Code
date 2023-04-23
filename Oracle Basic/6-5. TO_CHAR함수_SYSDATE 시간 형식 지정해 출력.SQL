@@ -1,0 +1,6 @@
+/*TO_CHAR함수: 날짜, 숫자 데이터를 문자 데이터로 변환*/
+SELECT SYSDATE,
+       TO_CHAR(SYSDATE, 'HH24:MI:SS') AS HH24MISS,
+       TO_CHAR(SYSDATE, 'HH12:MI:SS AM') AS HHMISS_AM,
+       TO_CHAR(SYSDATE, 'HH:MI:SS P.M.') AS HHMISS_PM
+ FROM DUAL; /*SYSDATE 시간 형식 지정해 출력*/

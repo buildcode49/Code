@@ -1,0 +1,3 @@
+SELECT EMPNO, ENAME, EMPNO + '500'
+ FROM EMP
+WHERE ENAME = 'SCOTT'; /*암시적 형 변환*/
